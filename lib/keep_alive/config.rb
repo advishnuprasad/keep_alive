@@ -12,7 +12,7 @@ module KeepAlive
     end
 
     def no_of_rows
-      @no_of_rows = @model_name.count  if model
+      @no_of_rows = @model_name.count
     end
   end
 end
