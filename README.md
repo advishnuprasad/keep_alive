@@ -30,7 +30,12 @@ in routes.rb
 How to use ? 
 
     localhost:3000/keep_alive
-    
+
+When to use ? 
+
+    You can use this url for your performance monitoring tool like NewRelic. 
+    So that NewRelic will not hit homepage for every 10 secs or so.    
+      
 ## Contributing
 
 1. Fork it
