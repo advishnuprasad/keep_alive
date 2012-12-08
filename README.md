@@ -1,6 +1,6 @@
 # KeepAlive
 
-TODO: Write a gem description
+Gem that will tell you whether the app/db is alive or not
 
 ## Installation
 
@@ -17,9 +17,20 @@ Or install it yourself as:
     $ gem install keep_alive
 
 ## Usage
+add the following in initializers/keep_alive.rb
 
-TODO: Write usage instructions here
+    KeepAlive.config do |config|
+      config.model(ModelName)
+    end
 
+in routes.rb
+
+    keep_alive
+    
+How to use ? 
+
+    localhost:3000/keep_alive
+    
 ## Contributing
 
 1. Fork it
